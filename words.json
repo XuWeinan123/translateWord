@@ -413,6 +413,72 @@
             "application": "多任务",
             "zh": "手机已被限制只能显示“%1$s”相关界面",
             "en": "Your phone displays only \"%1$s\" until you unpin it."
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周日",
+            "en": "Sunday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周一",
+            "en": "Monday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周二",
+            "en": "Tuesday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周三",
+            "en": "Wednesday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周四",
+            "en": "Thursday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周五",
+            "en": "Friday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周六",
+            "en": "Saturday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "周六",
+            "en": "Saturday"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "重复",
+            "en": "Repeat"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "每天",
+            "en": "Every day"
+        },
+        {
+            "name": "test",
+            "application": "设置",
+            "zh": "定时开机",
+            "en": "Auto Power-Off"
         }
     ]
 }
