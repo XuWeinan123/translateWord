@@ -1,9 +1,418 @@
-{ "items":[ 
-    {
-        "name":"name:hh_no",
-        "application":"未分类",
-        "zh":"张三",
-        "en":"ThreeZhang"
-    }
-]
+{
+    "items": [
+        {
+            "name": "name:oppo_lock_too_much_toast_message",
+            "application": "多任务",
+            "zh": "数量已经达上限，请先解锁",
+            "en": "You've reached the limit for locking apps. Unlock a locked app first."
+        },
+        {
+            "name": "name:editor_text_filter_youth",
+            "application": "视频",
+            "zh": "青春",
+            "en": "Youth"
+        },
+        {
+            "name": "name:health_exercise_time_explanation",
+            "application": "未分类",
+            "zh": "包括在手表上主动开启运动的时长和手表自动检测的运动时长（根据你的运动状态自动统计）。",
+            "en": "Your workout time includes the time you spend on workout sessions you manually start on your watch and any other physical activity your watch records automatically."
+        },
+        {
+            "name": "name:sports_health_record_exercise_evaluation_content",
+            "application": "未分类",
+            "zh": "运动效果评估与总体力消耗有关，包括有氧体力和无氧体力的消耗。总体力消耗量越多，运动效果评估分数越高，不过过度的运动也可能导致身体疲劳。",
+            "en": "Your workout effectiveness is analyzed according to your aerobic and anaerobic energy expenditure. The more energy you expend, the higher your score will be. However, excessive training may lead to fatigue."
+        },
+        {
+            "name": "name:lock_settings_profile_unification_dialog_uncompliant_body",
+            "application": "设置",
+            "zh": "\"您的工作资料锁定方式不符合贵单位的安全要求。您可以为自己的设备屏幕和工作资料使用同一种锁定方式，但是必须遵守所有相关的工作屏幕锁定规范。\"",
+            "en": "Your work profile lock doesn't meet your organization's security requirements. You can use the same lock for your device screen and your work profile, but any work lock policies will apply."
+        },
+        {
+            "name": "name:work_policy_privacy_settings",
+            "application": "设置",
+            "zh": "\"您的工作政策信息\"",
+            "en": "Your work policy info"
+        },
+        {
+            "name": "name:work_mode_off_message",
+            "application": "框架",
+            "zh": "\"您的工作应用、通知、数据及其他工作资料功能将会开启\"",
+            "en": "Your work apps, notifications, data, and other work profile features will be turned on"
+        },
+        {
+            "name": "name:sport_physical_advice",
+            "application": "未分类",
+            "zh": "手表根据你的跑步表现评估体能，推荐合适的跑步方案，跑3次以上将更精准。",
+            "en": "Your watch will recommend a running program to you based on your workout performance. Perform at least 3 running workouts for a more accurate plan."
+        },
+        {
+            "name": "name:temp_over_high_prompt",
+            "application": "未分类",
+            "zh": "手表将在3秒后自动关机。",
+            "en": "Your watch will power off in 3 seconds."
+        },
+        {
+            "name": "name:heytap_manual_ctrl_forbid_disturb_tips",
+            "application": "设置",
+            "zh": "“免打扰”启用后，手表将静音、关闭振动，且关闭抬手亮屏",
+            "en": "Your watch will be silenced, and vibration and Raise to Wake will be turned off."
+        },
+        {
+            "name": "name:dnd_notification_content",
+            "application": "未分类",
+            "zh": "手表将静音，且不会振动。",
+            "en": "Your watch will be silenced and will not vibrate."
+        },
+        {
+            "name": "name:cinema_notification_content",
+            "application": "未分类",
+            "zh": "手表将静音，且关闭抬手亮屏。可以通过侧面按钮点亮屏幕。",
+            "en": "Your watch will be silenced and Raise to Wake will be turned off. You can wake it by pressing the side buttons instead."
+        },
+        {
+            "name": "name:health_ecg_no_device_content",
+            "application": "未分类",
+            "zh": "通过手表测量心电图，并可以通过“健康”App将心电图发送给专家进行解读，分析心电异常状态。",
+            "en": "Your watch measures your heart rate and generates an ECG. You can use the \"Health\" app to send the ECG to an expert for analysis."
+        },
+        {
+            "name": "name:oobbe_pair_device_other_bind_des",
+            "application": "未分类",
+            "zh": "手表已被其他帐号绑定，请在其他账号解绑后重新绑定",
+            "en": "Your watch is linked to another account. Please unlink it first and try again."
+        },
+        {
+            "name": "name:sim_bluetooth_disconnected_tip",
+            "application": "未分类",
+            "zh": "已与手表断开连接，请连接后重试",
+            "en": "Your watch is disconnected. Reconnect and try again."
+        },
+        {
+            "name": "name:exp_page_title_3115",
+            "application": "使用技巧内容",
+            "zh": "你的私密保存空间",
+            "en": "Your Very Own Private Space"
+        },
+        {
+            "name": "name:upgrade_update_already",
+            "application": "日历",
+            "zh": "您的软件为最新版本，不需要更新。",
+            "en": "Your version is up to date, no need to update."
+        },
+        {
+            "name": "name:breeno_card_train_prepare_tips_format",
+            "application": "Breeno",
+            "zh": "你的列车将于%1$s%2$s发车",
+            "en": "Your train will depart on %1$s, %2$s."
+        },
+        {
+            "name": "name:train_title_will_start_soon",
+            "application": "未分类",
+            "zh": "你乘坐的列车将于%1$s发车",
+            "en": "Your train will depart at %1$s"
+        },
+        {
+            "name": "name:sub_title_will_trip_by_train_soon",
+            "application": "未分类",
+            "zh": "你的%1$s次列车将于%2$s发车。",
+            "en": "Your Train %1$s Will Depart at %2$s."
+        },
+        {
+            "name": "name:data_usage_limit_dialog_mobile;product:tablet",
+            "application": "设置",
+            "zh": "\"当您的平板电脑达到所设置的流量上限时，便会关闭移动数据网络。\n\n由于流量是由您的平板电脑计算的，而您的运营商的计算方式可能与此不同，因此请考虑设置一个保守的上限值。\"",
+            "en": "Your tablet will turn off cellular data once it reaches the limit you set.\n\nSince data usage is measured by your tablet, and your carrier may account for usage differently, consider setting a conservative limit."
+        },
+        {
+            "name": "name:shutdown_confirm;product:tablet",
+            "application": "框架",
+            "zh": "\"您的平板电脑会关闭。\"",
+            "en": "Your tablet will shut down."
+        },
+        {
+            "name": "name:install_all_warning;product:tablet",
+            "application": "设置",
+            "zh": "\"您的平板电脑和个人数据更容易受到从未知来源获取的应用的攻击。对于因使用这些应用而造成的平板电脑损坏或数据丢失，您同意自行承担全部责任。\"",
+            "en": "Your tablet and personal data are more vulnerable to attack by apps from unknown sources. You agree that you are solely responsible for any damage to your tablet or loss of data that may result from using these apps."
+        },
+        {
+            "name": "name:hearing_normal",
+            "application": "未分类",
+            "zh": "上周您耳机音频的暴露量为",
+            "en": "Your sound exposure last week was&#160;"
+        },
+        {
+            "name": "name:exposure_of_this_week",
+            "application": "未分类",
+            "zh": "本周你耳机音频的暴露量为",
+            "en": "Your sound exposure for this week is&#160;"
+        },
+        {
+            "name": "name:permgrouplab_socialInfo",
+            "application": "框架",
+            "zh": "\"您的社交信息\"",
+            "en": "Your social communication info"
+        },
+        {
+            "name": "name:needPuk",
+            "application": "框架",
+            "zh": "\"已对 SIM 卡进行 PUK 码锁定。键入 PUK 码将其解锁。\"",
+            "en": "Your SIM card is PUK-locked. Type the PUK code to unlock it."
+        },
+        {
+            "name": "name:lockscreen_permanent_disabled_sim_instructions",
+            "application": "框架",
+            "zh": "\"您的 SIM 卡已永久停用。\"\n\"请与您的无线服务提供商联系，以便重新获取一张 SIM 卡。\"",
+            "en": "Your SIM card has been permanently disabled\n Contact your wireless service provider for another SIM card"
+        },
+        {
+            "name": "name:not_allowed",
+            "application": "设置",
+            "zh": "\"您的 SIM 卡不允许连接到此网络。 daisy 您的 SIM 卡无法连接到此网络。\"",
+            "en": "Your SIM card doesn\u2019t allow a connection to this network."
+        },
+        {
+            "name": "name:sight_line_detection_reading_toast",
+            "application": "手势体感",
+            "zh": "已侦测到您的视线，屏幕将保持常亮",
+            "en": "Your sight has been detected; the screen will stay on."
+        },
+        {
+            "name": "name:quick_launch_clear_dialog_message",
+            "application": "未分类",
+            "zh": "\"会清除快捷键 <xliff:g id=\"SHORTCUT_LETTER\">%1$s</xliff:g>（<xliff:g id=\"APPLICATION_NAME\">%2$s</xliff:g>）。\"",
+            "en": "Your shortcut for<xliff:g id=\"SHORTCUT_LETTER\">%1$s</xliff:g>(<xliff:g id=\"APPLICATION_NAME\">%2$s</xliff:g>) will be cleared."
+        },
+        {
+            "name": "name:toast_share_too_much",
+            "application": "视频",
+            "zh": "您分享太频繁了，过会儿再试试吧",
+            "en": "Your sharing activity is too frequent, please try again later"
+        },
+        {
+            "name": "name:tts_settings_changed_demo",
+            "application": "未分类",
+            "zh": "\"设置已发生变化。这是声音效果示例。\"",
+            "en": "Your settings have changed. This is an example of how they sound."
+        },
+        {
+            "name": "name:token_out_of_date_message",
+            "application": "未分类",
+            "zh": "您的登录已过期，请重新登录。若取消将以游客身份浏览新闻资讯，推荐内容会受到影响。",
+            "en": "Your session has expired. Please sign in again. If canceled, you will browse News &amp; Information as a visitor and the recommended content will be affected."
+        },
+        {
+            "name": "name:wfc_disclaimer_location_desc_text",
+            "application": "设置",
+            "zh": "\"您的服务提供商可能会收集您的位置信息以便提供此服务。\n\n请查看服务提供商的隐私权政策。\"",
+            "en": "Your service provider may collect your location in order to provide this service.\n\nPlease review your service provider\u2019s privacy policy."
+        },
+        {
+            "name": "name:paragraph_sub_title_2248_22_1",
+            "application": "使用技巧内容",
+            "zh": "你的秘密只有你知道",
+            "en": "Your Secrets Are Yours Only"
+        },
+        {
+            "name": "name:auto_brightness_description",
+            "application": "设置",
+            "zh": "\"系统会根据您的环境和活动自动调节屏幕亮度。您可以手动移动滑块，帮助“自动调节亮度”功能了解您偏好的亮度。\"",
+            "en": "Your screen brightness will automatically adjust to your environment and activities. You can move the slider manually to help adaptive brightness learn your preferences."
+        },
+        {
+            "name": "name:heart_rate_rest_intro",
+            "application": "未分类",
+            "zh": "静息心率，又称为安静心率，是指在清醒、不活动的安静状态下，每分钟心跳的次数。\n\n静息心率一般在早上起床的时候测得。经常运动的人，静息心率相比普通人要低一些。",
+            "en": "Your resting heart rate is the number of times your heart beats per minute while at rest.\n\nIt is best measured first thing in the morning when you wake up naturally. People who exercise more often tend to have lower resting heart rates."
+        },
+        {
+            "name": "name:health_heart_rate_rest_description",
+            "application": "未分类",
+            "zh": "静息心率，又称为安静心率，是指在清醒、不活动的安静状态下，每分钟心跳的次数。一般在清晨醒来时测得的结果更为准确。",
+            "en": "Your resting heart rate is the number of times your heart beats per minute while at rest. It is best measured first thing in the morning when you wake up naturally."
+        },
+        {
+            "name": "name:health_heart_rate_standard_description",
+            "application": "未分类",
+            "zh": "心率健康状况评估主要的参考指标为静息心率值。健康成年人的静息心率值约为50&#8211;95次/分，理想的静息心率值为55&#8211;70次/分。通过运动锻炼和保持健康的生活方式可以使静息心率变慢。",
+            "en": "Your resting heart rate can usually tell you how healthy your heart is. The resting heart rate of a healthy adult is somewhere between 50-95 beats per minute. Ideally, it should be somewhere between 55-70 beats per minute. Exercise and a healthy lifestyle can help lower your resting heart rate."
+        },
+        {
+            "name": "name:statement_page_about_storage",
+            "application": "屏幕录制",
+            "zh": "您录制的屏幕视频将仅存储在您<b>OPPO</b>手机的本地存储器中；为方便同步与分享，您可以主动选择将屏幕视频上传至云端。未经您的事先明示同意，<b>OPPO</b>不会将您的任何屏幕视频上传至公司服务器，从而也不具有将这些信息向任何其他第三方披露或用于其他任何用途的可能性。",
+            "en": "Your recorded videos of the screen will only be stored locally on your <b>OPPO</b> device. For convenient sharing and syncing, you may choose to upload videos to the cloud. Without your prior and explicit consent, <b>OPPO</b> will not upload any of your screen videos to the company servers, this eliminates the possibility of these information being revealed to any third-party or used for any other purposes."
+        },
+        {
+            "name": "name:status_bar_no_recent_apps",
+            "application": "系统框架",
+            "zh": "\"您最近浏览过的屏幕会显示在此处\"",
+            "en": "Your recent screens appear here"
+        },
+        {
+            "name": "name:dual_wifi_connect_fail_3",
+            "application": "Wi-Fi、蓝牙、其他无线连接",
+            "zh": "当前主 Wi-Fi 网络良好，连接次 Wi-Fi 后可能导致上网体验变差，是否仍然连接双 Wi-Fi？",
+            "en": "Your primary Wi-Fi is stable. Connecting to a secondary Wi-Fi might affect your network experience. Connect to dual Wi-Fi networks anyway?"
+        },
+        {
+            "name": "name:auto_brightness_subtitle",
+            "application": "设置",
+            "zh": "\"您偏好的亮度\"",
+            "en": "Your preferred brightness level"
+        },
+        {
+            "name": "name:crypt_failed_factory_content",
+            "application": "未分类",
+            "zh": "您的手机存储已受损，请下载固件包刷机。",
+            "en": "Your phone's storage is damaged. Please download a firmware package to replace the phone's firmware."
+        },
+        {
+            "name": "name:crypt_failed_user_content",
+            "application": "未分类",
+            "zh": "您的手机存储已受损，无法读取手机存储数据！若要继续使用您的手机，需要重置手机（手机全部内容与数据无法恢复）。",
+            "en": "Your phone's storage is damaged and the data on it cannot be read! You need to reset your phone to continue using it (none of the phone's content or data will be restored)."
+        },
+        {
+            "name": "name:wlan_display_mirror_tip",
+            "application": "Wi-Fi、蓝牙、其他无线连接",
+            "zh": "当大屏设备开启“无线显示”功能后，手机可以和大屏设备进行连接配对，将手机画面实时同步到大屏设备上。",
+            "en": "Your phone's display can be paired in real time with a display device after enabling wireless display on the display device."
+        },
+        {
+            "name": "name:zen_mode_restrict_notifications_hide_footer",
+            "application": "设置",
+            "zh": "\"您的手机将不会显示任何新通知或现有通知，也不会因此发出振动或提示音。请注意，系统仍会显示与手机活动和状态相关的重要通知。\n\n关闭“勿扰”模式后，您可以通过从屏幕顶部向下滑动来查找错过的通知。\"",
+            "en": "Your phone won\u2019t show, vibrate or make sound for new or existing notifications. Keep in mind, critical notifications for phone activity and status will still appear.\n\nWhen you turn off Do Not Disturb, find missed notifications by swiping down from the top of your screen."
+        },
+        {
+            "name": "name:data_usage_limit_dialog_mobile;product:default",
+            "application": "设置",
+            "zh": "\"当移动数据流量的使用量达到您设置的上限时，您的手机将关闭移动数据网络。\n\n由于流量用量是由您的手机计算的，而您的运营商对流量用量的计算方式可能有所不同，因此建议您设置一个保守的上限值。\"",
+            "en": "Your phone will turn off mobile data once it reaches the limit you set.\n\nSince data usage is measured by your phone, and your carrier may account for usage differently, consider setting a conservative limit."
+        },
+        {
+            "name": "name:shutdown_confirm",
+            "application": "未分类",
+            "zh": "您的手机将会关机。",
+            "en": "Your phone will shut down."
+        },
+        {
+            "name": "name:shutdown_confirm;product:default",
+            "application": "框架",
+            "zh": "\"您的手机将会关机。\"",
+            "en": "Your phone will shut down."
+        },
+        {
+            "name": "name:bluetooth_unpair_dialog_body;product:default",
+            "application": "设置",
+            "zh": "\"您的手机将与<xliff:g id=\"DEVICE_NAME\">%1$s</xliff:g>取消配对\"",
+            "en": "Your phone will no longer be paired with <xliff:g id=\"device_name\">%1$s</xliff:g>"
+        },
+        {
+            "name": "name:bluetooth_disconnect_all_profiles;product:default",
+            "application": "设置",
+            "zh": "\"您的手机将断开与<xliff:g id=\"DEVICE_NAME\">%1$s</xliff:g>的连接。\"",
+            "en": "Your phone will disconnect from \"<xliff:g id=\"device_name\">%1$s</xliff:g>."
+        },
+        {
+            "name": "name:lockpassword_confirm_your_pin_details_frp",
+            "application": "设置",
+            "zh": "\"您的手机已恢复出厂设置。要使用此手机，请输入您以前的 PIN 码。\"",
+            "en": "Your phone was reset to factory settings. To use this phone, enter your previous PIN."
+        },
+        {
+            "name": "name:lockpassword_confirm_your_pattern_details_frp",
+            "application": "设置",
+            "zh": "\"您的手机已恢复出厂设置。要使用此手机，请输入您以前的解锁图案。\"",
+            "en": "Your phone was reset to factory settings. To use this phone, enter your previous pattern."
+        },
+        {
+            "name": "name:lockpassword_confirm_your_password_details_frp",
+            "application": "设置",
+            "zh": "\"您的手机已恢复出厂设置。要使用此手机，请输入您以前的密码。\"",
+            "en": "Your phone was reset to factory settings. To use this phone, enter your previous password."
+        },
+        {
+            "name": "name:running_applications_info_summary1",
+            "application": "设置",
+            "zh": "可释放手机内存，提升系统流畅度。",
+            "en": "Your phone storage will be freed up and your system will run more smoothly."
+        },
+        {
+            "name": "name:pl_play_wizard_tips_content",
+            "application": "Wi-Fi、蓝牙、其他无线连接",
+            "zh": "在进行初次配置时，您的手机可能会消费数据流量，并产生一定的费用。为避免流量收费，建议您连接到 WLAN。",
+            "en": "Your phone may use mobile data during setup, and this may incur charges. Connecting to Wi-Fi is suggested to avoid possible data charges."
+        },
+        {
+            "name": "name:sleep_optimization_summary",
+            "application": "守护精灵",
+            "zh": "智能学习睡眠时间，并在睡眠时低功率充电。",
+            "en": "Your phone learns your sleep patterns to automatically switch to lower power charging when you sleep."
+        },
+        {
+            "name": "name:oppo_text_root_title",
+            "application": "框架",
+            "zh": "您的手机已经被ROOT",
+            "en": "Your phone is rooted."
+        },
+        {
+            "name": "name:search_phone",
+            "application": "未分类",
+            "zh": "手机正在响铃&#8230;",
+            "en": "Your phone is ringing..."
+        },
+        {
+            "name": "name:setup_wizard_ok_lable",
+            "application": "未分类",
+            "zh": "手机已经准备好使用",
+            "en": "Your phone is ready to use"
+        },
+        {
+            "name": "name:offset_remind_location",
+            "application": "系统框架",
+            "zh": "充电位置放置不精准，请调整设备位置以获得更好的充电效果。",
+            "en": "Your phone is not in the correct charging position. Adjust it for better charging."
+        },
+        {
+            "name": "name:memery_clean_empty_result",
+            "application": "未分类",
+            "zh": "\"您的手机已处于最佳状态\"",
+            "en": "Your phone is in the best condition"
+        },
+        {
+            "name": "name:security_scan_x_opt_health_perfect",
+            "application": "未分类",
+            "zh": "您的手机很健康，请继续保持",
+            "en": "Your phone is in good condition. Keep it up!"
+        },
+        {
+            "name": "name:clear",
+            "application": "未分类",
+            "zh": "手机很干净",
+            "en": "Your Phone is Free of Junk"
+        },
+        {
+            "name": "name:battery_tip_dialog_message;product:default",
+            "application": "设置",
+            "zh": "\"您使用的手机的频率比平时高。电池电量可能会比预期更快耗尽。\n\n耗电量较高的几个应用：\"",
+            "en": "Your phone has been used more than usual. Your battery may run out sooner than expected.\n\nTop apps by battery usage:"
+        },
+        {
+            "name": "name:relax_no_support_dolby",
+            "application": "未分类",
+            "zh": "因当前机型不支持杜比音效，含杜比格式的内容无法正常播放。",
+            "en": "Your phone does not support the Dolby effect. Dolby content cannot be played."
+        },
+        {
+            "name": "name:oppo_screen_pinning_title",
+            "application": "多任务",
+            "zh": "手机已被限制只能显示“%1$s”相关界面",
+            "en": "Your phone displays only \"%1$s\" until you unpin it."
+        }
+    ]
 }
